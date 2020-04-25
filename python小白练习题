@@ -1,0 +1,6 @@
+一.列表合并与排序
+输入一个整数列表，列表元素为18个，元素之间逗号隔开，编写程序，将前9个元素升序排列，后9个元素降序排列，输出列表
+ls=eval(input())
+a=ls[:9]
+b=ls[9:]
+print(sorted(a)+sorted(b,reverse=True)
